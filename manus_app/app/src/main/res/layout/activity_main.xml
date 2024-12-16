@@ -1,0 +1,47 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="220dp"
+    >
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="POOR"
+        android:id="@+id/poor"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@color/red"
+
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="OK"
+        android:id="@+id/ok"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/button_background">
+
+    </Button>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="GOOD"
+        android:id="@+id/good"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/button_background">
+
+    </Button>
+
+</LinearLayout>
